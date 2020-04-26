@@ -14,9 +14,9 @@ int do_operation(operation_ptr op, int x, int y)
 int main(int argc, char **argv)
 {
     puts("test of function pointer");
-    int result = do_operaiton(add,5,34);
-    puts("5+34=" result);
+    int result = do_operation(add,5,34);
+    printf("5+34=%d\n", result);
     int result2 = do_operation(mult,2,3);
-    puts("2*3="result2);
+    printf("2*3=%d\n", result2);
     return 0;
 }

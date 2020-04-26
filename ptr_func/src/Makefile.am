@@ -1,2 +1,2 @@
 bin_PROGRAMS = func_ptrs
-hello_SOURCES = main.c
+func_ptrs_SOURCES = main.c
