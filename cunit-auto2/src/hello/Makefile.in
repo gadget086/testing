@@ -1,0 +1,8 @@
+ifndef HELLO_MAKEFILE
+
+HELLO_MAKEFILE = 1
+
+hello:
+	@${CC} -c -o hello.o src/hello/hello.c ${CFLAGS}
+
+endif
