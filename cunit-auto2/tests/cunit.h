@@ -21,7 +21,7 @@ sig {\
 	__PRE_POST_TEST(int cleanup_test(void), code)
 
 #define CHECK(name) void test_ ## name(void)
-#define TEST(name) {"name", test_ ## name}
+#define TEST(name) {#name, test_ ## name}
 
 #define RUN(suite, ...) \
 void fireball(void) { \
