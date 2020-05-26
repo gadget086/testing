@@ -1,2 +1,2 @@
 SUBDIRS=src tests
-TESTS=tests/hello
+TESTS=tests/unit_hello
