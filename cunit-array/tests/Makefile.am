@@ -1,3 +1,4 @@
+TESTS = tests/unit_hello
 AM_CFLAGS=-I${top_srcdir}/src -std=c99 -Wall
 AM_LGFLAGS=-L/usr/local/include -lcunit
 

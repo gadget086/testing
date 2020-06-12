@@ -1,2 +1,1 @@
-SUBDIRS=src tests
-TESTS=tests/unit_hello
+SUBDIRS = src tests
